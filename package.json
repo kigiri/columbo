@@ -1,0 +1,27 @@
+{
+  "name": "columbo",
+  "version": "1.0.0",
+  "description": "Start node with the --inspect flag and copy the url to the clip board",
+  "main": "bin/columbo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "columbo": "bin/columbo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kigiri/columbo.git"
+  },
+  "keywords": [
+    "node",
+    "inspector",
+    "copy"
+  ],
+  "author": "Clement Denis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kigiri/columbo/issues"
+  },
+  "homepage": "https://github.com/kigiri/columbo#readme"
+}

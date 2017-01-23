@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+const inspector = require('../lib/inspector')
+
+inspector({
+  stdin: process.stdin,
+  exit: process.exit,
+  logError: str => console.error(str),
+  args: process.argv.slice(2),
+})
