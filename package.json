@@ -1,17 +1,17 @@
 {
-  "name": "columbo",
+  "name": "gadgeto",
   "version": "1.0.0",
   "description": "Start node with the --inspect flag and copy the url to the clip board",
-  "main": "bin/columbo",
+  "main": "bin/gadgeto",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "columbo": "bin/columbo"
+    "gadgeto": "bin/gadgeto"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kigiri/columbo.git"
+    "url": "git+https://github.com/kigiri/gadgeto.git"
   },
   "keywords": [
     "node",
@@ -21,7 +21,7 @@
   "author": "Clement Denis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kigiri/columbo/issues"
+    "url": "https://github.com/kigiri/gadgeto/issues"
   },
-  "homepage": "https://github.com/kigiri/columbo#readme"
+  "homepage": "https://github.com/kigiri/gadgeto#readme"
 }
